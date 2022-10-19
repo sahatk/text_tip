@@ -1,0 +1,43 @@
+★ JSON ★
+https://www.mockaroo.com/ --> 엑셀로 가상 텍스트 넣는 데이터 사이트
+
+★ CSS ★
+
+https://codepen.io/ --> css사이트
+css.tricks --> css 사이트
+
+★ REACT ★
+
+https://goddaehee.tistory.com/293?category=395445 --> 리액트 공부
+
+
+★ TEST ★
+
+vercel --> 홈페이지 테스트 사이트
+https://validator.w3.org/unicorn/ -> 웹 표준 검사 사이트
+https://jsfiddle.net/ -> 코드 테스트
+
+★ DOWNLOAD ★
+
+https://cdnjs.com/ --> CSS,JS 파일 다운 및 연동 사이트
+
+
+★ STUDY ★
+
+https://webzz.tistory.com/ ---> HTML,CSS,JAVASCRIPT,JQEURY 공부 사이트
+
+http://tcpschool.com/html-tags/intro ---> HTML,CSS,JAVASCRIPT,JQEURY,JSON,PYTHON,AJAX 공부 사이트
+
+https://www.w3schools.com/bootstrap/bootstrap_ver.asp --> bootstrap 공부 사이트
+
+
+★ 취업 ★
+
+
+★ IT 용어 사전★
+
+https://brunch.co.kr/@hopeless/8 --> IT 영단어 정리 (예 : CamelCase, snake_case)
+
+https://html.spec.whatwg.org/multipage/named-characters.html --> 문자, 기호, 특수 문자 코드 사이트
+
+https://www.koscom.co.kr/portal/bbs/B0000034/list.do?ise=I&searchWrd=&menuNo=200320 --> IT 용어 사전

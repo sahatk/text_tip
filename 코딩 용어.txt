@@ -1,0 +1,47 @@
+1. 용어
+칸 아카데미
+
+
+-- API : Application Programing Interface
+-- Framework : angular, vue, next : 제한적이다.
+-- Library : jquery, react : 자유롭다
+-- CRUD : Create, Read, Update, Delete -> html의 form태그와 관련
+-- REST API
+
+
+
+2. 코드용어
+- core : 언어에서 가장 기본이되는 용어 기능
+- method : 함수의 기능을 가진 객체 
+
+3. REACT
+ - component
+ - hook : useState, useEffect, useRef ....
+ - middleware(node.js) : ex) react-router-dom , usehook-ts
+
+4. 
+ - 화면설계서
+ - photoshop/figma
+ - 기능 검수: TDD, DDD, Zest
+ - 검수 : 가동검토(중간검토, 런칭테스트)
+
+5.  책 참고
+
+JAVASCRIPT : 자바스크립트 완벽 가이드, 모던 자바스크립트 Deep Dive
+
+REACT : 리액트를 다루는 기술
+
+타입스크립트 : 
+
+6. 유튜브 공부
+
+생활코딩 REST API
+
+WEB TECH CAMP
+
+https://event-us.kr/web/event/45803
+
+css.tricks
+
+
+

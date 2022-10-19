@@ -1,0 +1,3 @@
+alt + b = 다중 선택
+
+ctrl + k + s 로 다중 선택 alt + b를 alt + q로 변경

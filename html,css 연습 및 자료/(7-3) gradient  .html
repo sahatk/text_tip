@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///C:/HTML1/html5-css3-master/PSJ/gradient.html -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{width:500px;
+			height:300px;
+			border-radius:10px;
+            margin:10px;
+        }
+        .grad2{background : repeating-linear-gradient(yellow,red 20px);} 
+        .grad3{background : repeating-linear-gradient(yellow, yellow 20px, red 20px, red 40px)}   
+    </style>
+</head>
+<body>
+    <h1>선형 그러데이션</h1>
+    <p>.grad{linear-gradient((<mark>각도 to 방향) , color-stop, [color-stop,...]</mark>);}</p>
+    <hr>
+    <h1>선형 그러데이션 위치 선정</h1>  <p>.grad{backgruound : linear-gradient(<mark>to right bottom, blue, white</mark>);} = .grad{background :  linear-gradient(<mark>방향,시작색, 끝색</mark>);</p>
+<hr>
+    <h1>선형 그러데이션 각도 선정</h1>  <p>.grad{background : linear-gradient(<mark>45deg,##ff0000,#ffffff</mark>); = .grad{background :  linear-gradient(<mark>45도,빨간색, 흰색</mark>);}</p>
+    <hr>
+    <h1>선형 그러데이션 색상 중지점 선정</h1>  <p>.grad{background : linear-gradient(<mark>to bottom, #06f, white 30%, #06f</mark>);} = 
+        .grad{background : linear-gradient(<mark>방향,파랑색,중지점 색상 하얀색, 파랑색</mark>);}
+    </p>
+
+    <hr>
+
+    <h1>원형 그러데이션</h1>
+    <p>.grad{background : radial-gradient(<mark>circle, 크기 at 위치는 생략,  white, yellow , red</mark>);} = .grad{background : radial-gradient(<mark>최종모양 , 크기 at 위치 , color-stop, [color-stop], [[color-stop]]</mark>);}
+        </p><hr>  
+        <p></p>
+    <h1>원형 그러데이션 위치 선정</h1>
+    <p>.grad{background : radial-gradient (<mark>circle at 10% 10% , white, blue</mark>);} = .grad{background : radial-gradient (<mark>최종모양, 크기 at 위치, color-stop, [color-stop]</mark>);}</p>
+    <hr>
+    <h1>원형 그러데이션 각도 선정</h1>
+    <p> .grad{background : radial-gradient(<mark>circle, closest-side at 30% 40%, white, yellow , green</mark>);} =
+        .grad{background : radial-gradient(<mark>circle, 크기 at 위치, color-stop, color-stop , color-stop</mark>);}</p>
+    <p>  크기는 <mark>closest-side(가까운 모서리) , closest-corner(가까운 꼭지점), farthest-side(먼 모서리), farthest-corner(먼 꼭지점)</mark> 가 있음.</p>
+    <hr>
+    <h1>원형 그러데이션 색상 중지점은 생략</h1>
+    <hr>
+
+    <h1>그러데이션을 이용해 패턴 만들기</h1>
+    <p>.grad{background : repeating-linear-gradient(<mark>yellow,red 20px</mark>);} =
+        .grad{background : repeating-linear-gradient(<mark>노란색에서 빨간색으로 부드럽게 바뀐다.</mark>);}</p>
+    <div class="grad2">
+    </div>
+<hr>
+<h1>그러데이션을 이용해 패턴 만들기2 (각지게)</h1>
+    <p>.grad3{background : repeating-linear-gradient(<mark>yellow, yellow 20px, red 20px, red 40px</mark>)} =
+        .grad3{background : repeating-linear-gradient(<mark>0px부터 노란색 , 20px까지  노란색, 20xp부터  빨간색 , 40px까지  빨간색</mark>)}
+    </p>
+    <div class="grad3">
+    </div>
+
+
+</body></html>

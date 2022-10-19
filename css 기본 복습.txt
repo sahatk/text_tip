@@ -1,0 +1,63 @@
+※※※※※※※※※※※※ select option 사용법 ※※※※※※※※※※※※
+
+<select name="" id="" class="search_wrap_li">
+  <option value="">전체</option>
+  <option value="">브랜드</option>
+  <option value="">계열사</option>
+  <option value="">SPC그룹</option>
+</select>
+
+※※※※※※※※※※※※ select option 사용법 ※※※※※※※※※※※※
+
+
+
+
+
+
+
+※※※※※※※※※※※※※ 수직 정렬 하는법 ※※※※※※※※※※※※※
+
+.parent {
+  display: flex;
+  flex-direction: column; // 위에서 아래로 수직 배치
+  justify-content: center; // 중앙정렬
+}
+
+※※※※※※※※※※※※※ 수직 정렬 하는법 ※※※※※※※※※※※※※
+
+
+
+
+
+
+
+
+※※※※※※※※※※ 레이아웃 최적화/설정 하는법 ※※※※※※※※※※
+
+section(id이름) > container > row > div(class이름)
+
+모든 레이아웃 위치 설정
+
+1. section id와 div class를 이름 통일
+2. container에 margin: 0 auto; 로 바깥쪽 틀 잡기
+3. row에 padding: 0 28px; 로 안쪽 틀 잡기
+
+※※※※※※※※※※ 레이아웃 최적화/설정 하는법 ※※※※※※※※※※
+
+
+
+
+
+
+
+※※※※※※※※※※※※※※ animation 깜빡임 ※※※※※※※※※※※※※※
+
+@keyframes blink-effect { 50% { opacity: 0.7; } }
+
+.#app{
+
+animation: blink-effect 1s step-end infinite; //animaiton 차례대로 이름, 실행시간, 속도 곡선지정, 반복횟수시정
+
+}
+
+※※※※※※※※※※※※※※ animation 깜빡임 ※※※※※※※※※※※※※※

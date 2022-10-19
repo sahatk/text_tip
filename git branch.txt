@@ -1,0 +1,15 @@
+git 브랜치 만드는법
+
+1.  git 새로운 브랜치 생성
+       git checkout -b 브랜치이름
+ ex)   git checkout -b tutorial 
+
+2.  git 브랜치 경로 바꾸기
+
+    git checkout tutorial
+
+
+
+////////////// 프리랜서 html,css 퍼블리싱////
+
+이랜서, 위시캣, 로켓펀치, 프로그래머스

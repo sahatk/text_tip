@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)file:///C:/HTML1/html5-css3-master/PSJ/MoonDanStyle.html -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> .dir{direction : rtl;} 
+    .align{text-align : center}
+    .content{border: 1px solid #ccc;
+    width: 300px;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;} /*오버플로우 : hidden -> 넘치는 부분 감춤*/
+    .content:hover{
+    overflow: visible;}</style>
+    
+</head>
+
+
+<body>
+    <!--dir{direction : rtl;(오른쪽에서 왼쪽 정렬)}-->
+    <p class="dir"> direction : 글자 쓰기 방향 지정하기 - ltr(왼쪽에서 오른쪽 표시 기본값임), rtl(오른쪽에서 왼쪽 정렬)</p>
+    <hr>
+
+    <!--.align-left{text-align : left;} (왼쪽 정렬)  -->
+    <!--.align-left{text-align : center;} (가운데 정렬)  -->
+    <p class="align"> text-align : start, end, left, right ,center(가운데 정렬), justify(양쪽 정렬 or 평등 정렬), 
+        match-parent(부모 요소에 따라 정렬); </p>
+    
+<hr>
+    <p> text-justify : 정렬 시 공백 조절 - auto(자동 정렬), none(정렬x), inter-word(단어 사이의 공백을 똑같게 조절), 
+        distribute(글자 사이의 공백을 똑같게 조절);------------------------------------생략---------------------------------------------</p>
+
+<hr>
+
+<p>text-indent : 텍스트 들여 쓰기 - (크기), (백분율)------------------------------------생략---------------------------------------------</p>
+<hr>
+<p>line-height : 줄 간격 조절하기 - (숫자) , (크기), (백분율)------------------------------------생략---------------------------------------------</p>
+<hr>
+<p class="content">text-overflow: 흘러 넘치는 텍스트 표시하기 - clip(흘러 넘치는 텍스트 잘라버리기), ellipsis(말 줄임표인 ...으로 나타내기);
+    <br /> 3종 세트 (white-space: nowrap; overflow:hidden; text-overflow: ellipsis;) 기억하기
+</p>
+
+
+</body></html>
