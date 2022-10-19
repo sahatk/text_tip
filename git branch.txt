@@ -8,8 +8,12 @@ git 브랜치 만드는법
 
     git checkout tutorial
 
-
+3. !!!!주의!!!!
+★★★ main 인지 master 인지 경로 확인하고 업로드하기★★★
+git branch -M main ---> main으로 경로 바꾸기
+git branch -M master ---> master로 경로 바꾸기
 
 ////////////// 프리랜서 html,css 퍼블리싱////
 
 이랜서, 위시캣, 로켓펀치, 프로그래머스
+
